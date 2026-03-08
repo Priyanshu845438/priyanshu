@@ -2,7 +2,7 @@
 
 Professional portfolio showcasing expertise in Data Engineering, QA, AI Evaluation, and Full-Stack Development.
 
-[![Portfolio Live](https://img.shields.io/badge/Live-priyanshu.portfolio.data-blue.svg)](https://priyanshu.portfolio.data/)
+[![Portfolio Live](https://img.shields.io/badge/Live-View%20Portfolio-blue.svg)](https://Priyanshu845438.github.io/priyanshu/)
 [![GitHub](https://img.shields.io/badge/GitHub-Priyanshu845438-black.svg?logo=github)](https://github.com/Priyanshu845438)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Priyanshu%20Raj-blue?logo=linkedin)](https://www.linkedin.com/in/priyanshu-raj-b0b589203/)
 
