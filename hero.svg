@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<!-- Accent Gradient -->
+<linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#2563eb"/>
+  <stop offset="100%" stop-color="#22c55e"/>
+</linearGradient>
+
+<!-- Glow Filter -->
+<filter id="softGlow">
+  <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#2563eb"/>
+</filter>
+
+<style>
+
+@keyframes pulse {
+  0%,100% { opacity:.5; }
+  50% { opacity:.9; }
+}
+
+@keyframes blink {
+  0%,100% { opacity:1; }
+  50% { opacity:0; }
+}
+
+@keyframes lineExpand {
+  0% { width:0; }
+  100% { width:320px; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+#accentCircle { animation: pulse 4s ease-in-out infinite; }
+#cursor { animation: blink 1s infinite; }
+#accentLine { animation: lineExpand 1.5s ease-out forwards; }
+.bg-text { font-family: 'Fira Code', monospace; fill: #2563eb; opacity: 0.10; font-weight: bold; animation: float 6s ease-in-out infinite; }
+
+</style>
+</defs>
+
+<!-- Subtle Floating Background Text -->
+<g class="bg-text">
+  <text x="50" y="150" font-size="80" style="animation-delay: 0s;">SQL</text>
+  <text x="750" y="200" font-size="70" style="animation-delay: 1s;">PYTHON</text>
+  <text x="100" y="850" font-size="75" style="animation-delay: 2s;">ETL</text>
+  <text x="800" y="900" font-size="60" style="animation-delay: 0.5s;">SPARK</text>
+  <text x="200" y="100" font-size="50" style="animation-delay: 1.5s;">PIPELINES</text>
+  <text x="850" y="400" font-size="55" style="animation-delay: 2.5s;">POSTGRES</text>
+  <text x="100" y="450" font-size="65" style="animation-delay: 1.2s;">DOCKER</text>
+  <text x="700" y="700" font-size="50" style="animation-delay: 1.8s;">KAFKA</text>
+</g>
+
+<!-- BIG Accent Glow Circle -->
+<circle id="accentCircle"
+        cx="500"
+        cy="500"
+        r="420"
+        fill="none"
+        stroke="url(#accentGrad)"
+        stroke-width="3"
+        opacity=".7"
+        filter="url(#softGlow)"/>
+
+<!-- Subtle Inner Circle -->
+<circle cx="500"
+        cy="500"
+        r="360"
+        fill="none"
+        stroke="url(#accentGrad)"
+        stroke-width="1"
+        opacity=".25"/>
+
+<!-- Center Name -->
+<text x="500"
+      y="470"
+      text-anchor="middle"
+      font-size="64"
+      font-weight="700"
+      fill="#111827"
+      font-family="Inter, Arial, sans-serif">
+  Priyanshu Raj
+</text>
+
+<!-- Role -->
+<text x="500"
+      y="520"
+      text-anchor="middle"
+      font-size="30"
+      fill="#374151"
+      font-family="Inter, Arial, sans-serif">
+  Data Engineer
+</text>
+
+<!-- Tech Stack -->
+<text x="500"
+      y="560"
+      text-anchor="middle"
+      font-size="20"
+      fill="#6b7280"
+      font-family="monospace">
+  Python • SQL • ETL • Databases • PySpark
+</text>
+
+<!-- Animated Accent Line -->
+<rect id="accentLine"
+      x="340"
+      y="590"
+      height="3"
+      width="0"
+      fill="url(#accentGrad)"/>
+
+<!-- Terminal Cursor -->
+<text x="500"
+      y="630"
+      text-anchor="middle"
+      font-size="22"
+      fill="#2563eb"
+      font-family="monospace">
+  &gt; building data pipelines<span id="cursor">_</span>
+</text>
+
+<!-- Social Icons -->
+<g transform="translate(395,700)">
+
+  <!-- LinkedIn -->
+  <rect x="0" y="0" width="42" height="42" rx="10" fill="#2563eb"/>
+  <text x="21" y="28" text-anchor="middle" font-size="20" fill="white" font-family="Arial">in</text>
+
+  <!-- GitHub -->
+  <rect x="90" y="0" width="42" height="42" rx="10" fill="#111827"/>
+  <text x="111" y="28" text-anchor="middle" font-size="20" fill="white" font-family="Arial">GH</text>
+
+  <!-- Website -->
+  <rect x="180" y="0" width="42" height="42" rx="10" fill="#22c55e"/>
+  <text x="201" y="28" text-anchor="middle" font-size="18" fill="white" font-family="Arial">🌐</text>
+
+</g>
+
+</svg>
