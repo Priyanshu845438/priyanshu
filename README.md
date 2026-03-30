@@ -1,6 +1,6 @@
-# Priyanshu Raj | Data Engineer & All-Rounder
+# Priyanshu Raj | Business Analyst & Data Analyst
 
-Professional portfolio showcasing expertise in Data Engineering, QA, AI Evaluation, and Full-Stack Development.
+Professional portfolio showcasing expertise in Data Analysis, REST API Development, and AI Evaluation.
 
 [![Portfolio Live](https://img.shields.io/badge/Live-View%20Portfolio-blue.svg)](https://Priyanshu845438.github.io/priyanshu/)
 [![GitHub](https://img.shields.io/badge/GitHub-Priyanshu845438-black.svg?logo=github)](https://github.com/Priyanshu845438)
@@ -10,16 +10,16 @@ Professional portfolio showcasing expertise in Data Engineering, QA, AI Evaluati
 
 ## 🚀 Overview
 
-I am a **Data Engineer** with a diverse technical background spanning QA engineering, backend systems, and AI model evaluation. My "all-rounder" approach allows me to understand the full journey of data—from source to product—with a focus on engineering quality, observability, and system reliability.
+Aspiring Business and Data Analyst with strong skills in data analysis, REST API development, and technologies like Node.js, SQL, and React. Passionate about turning data into insights to support business decisions.
 
 ## 🛠 Tech Stack
 
-- **Data Engineering:** PySpark, SQL, Python, ETL Pipelines, Data Modeling, Power BI.
-- **Databases:** PostgreSQL, MySQL, MongoDB, Query Optimization, Prisma ORM.
-- **Backend:** Node.js, Express.js, NestJS, JWT Auth, REST APIs.
-- **AI Systems:** LLM Benchmarking, Prompt Engineering, Model Reliability, API Resilience.
-- **Frontend:** HTML5, CSS3, JavaScript, TypeScript, Bootstrap, React.js.
-- **Tools:** Git, Docker, Jira, Agile, Swagger, CI/CD.
+- **Data Analysis & Processing:** ETL, Data Analysis, Data Interpretation, Data Cleaning, Data Validation, Data Quality, Report Creation, Dashboard Creation, Data Modeling, Data Extraction, Data Transformation, Data Reporting.
+- **Databases:** SQL, MongoDB, PostgreSQL.
+- **Backend & Frontend:** JavaScript, Python, Node.js, Express.js, React.js, Flask, Backend Development.
+- **Testing & QA:** API Testing, Functional Testing, Regression Testing, Workflow Testing, System Analysis, Error Analysis, Quality Assurance.
+- **AI Systems:** LLM Testing, Prompt Testing, AI Response Analysis.
+- **Tools:** Postman, Git & GitHub, Microsoft Excel, Power BI.
 
 ## 📁 Repository Structure
 
@@ -35,16 +35,20 @@ I am a **Data Engineer** with a diverse technical background spanning QA enginee
 
 ## 🌟 Key Projects
 
-- **ImpactBridge Backend:** CSR Compliance Platform (NestJS, Prisma, PostgreSQL).
-- **Enterprise Bug Tracker:** REST APIs for workflow management (Node.js, MongoDB).
-- **Review Monkey:** SaaS platform for feedback collection.
-- **Telegram AI Bot:** Intelligent bot using Flask & OpenAI API.
+- **ImpactBridge Backend:** CSR Compliance Platform for NGOs & Corporates.
+- **Donation Platform:** MERN-Based Fundraising System with Payment Integration.
+- **Enterprise Bug Tracker:** Issue & Workflow Management System.
+- **Telegram AI Bot:** AI-Powered Chatbot using OpenAI API.
+- **MediConnect AI:** AI-Powered Healthcare Assistant Platform.
+- **Chatbot App:** Real-Time AI Chat Application with OpenAI Integration.
+- **3D Developer Portfolio:** Interactive WebGL Portfolio using Three.js.
 
 ## 🎓 Education & Certifications
 
 - **B.Tech in Computer Software Engineering** - Parul University (2023-2026).
 - **Diploma in Computer Science** - Kalinga University (2019-2022).
-- **Certifications:** AI Trainer (micro1), GenAI Mastermind, IoT (NPTEL), Theory of Computation (IIT Kanpur).
+- **Certifications:** AI Trainer (micro1), Introduction to Internet of Things (NPTEL), Generative AI Mastermind (Outskill), Effective Leadership (HP LIFE), Theory of Computation (NPTEL - IIT Kanpur).
+- **Research & Publications:** IEEE Published Paper - Enhancing Trust in Digital Philanthropy: Design and Validation of an Integrated Multi-Role Donation Platform (ICCSC 2026).
 
 ## 📩 Contact
 

@@ -5,20 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
 
 :root {
-  --primary: #2563eb;
-  --primary-lt: #eff6ff;
-  --primary-md: #bfdbfe;
-  --accent: #0ea5e9;
-  --text-dark: #0f172a;
-  --text-body: #334155;
-  --text-muted: #64748b;
-  --bg: #ffffff;
-  --bg-alt: #f8fafc;
-  --bg-alt2: #f1f5f9;
-  --border: #e2e8f0;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.07);
-  --shadow-lg: 0 12px 40px rgba(37, 99, 235, 0.10);
+  --primary: #3b82f6;
+  --primary-lt: rgba(59, 130, 246, 0.15);
+  --primary-md: rgba(59, 130, 246, 0.3);
+  --accent: #10b981;
+  --text-dark: #f8fafc;
+  --text-body: #cbd5e1;
+  --text-muted: #94a3b8;
+  --bg: #0f172a;
+  --bg-alt: #1e293b;
+  --bg-alt2: #334155;
+  --border: #334155;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 40px rgba(59, 130, 246, 0.25);
   --radius: 14px;
 }
 
@@ -55,7 +55,7 @@ body {
 
 /* ========== NAVBAR ========== */
 .navbar-custom {
-  background: rgba(255, 255, 255, 0.92) !important;
+  background: rgba(15, 23, 42, 0.85) !important;
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
   padding: 0.1rem 0;
@@ -123,7 +123,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232563eb' stroke-linecap='round' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%233b82f6' stroke-linecap='round' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 /* ========== HERO ========== */
@@ -137,35 +137,41 @@ body {
   background: var(--bg);
 }
 
-/* subtle grid bg shared across blocks */
+/* subtle data dots bg to imply data points */
 #home::before,
 #skills::before,
-#ventures::before,
 #projects::before,
 #contact::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(var(--border) 1px, transparent 1px), linear-gradient(90deg, var(--border) 1px, transparent 1px);
-  background-size: 40px 40px;
-  opacity: 0.45;
+  background-image: radial-gradient(var(--text-muted) 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.15;
   pointer-events: none;
 }
 
+/* animated glowing orbs for a powerful aesthetic */
 #home::after,
 #skills::after,
-#ventures::after,
 #projects::after,
 #contact::after {
   content: '';
   position: absolute;
-  top: -120px;
-  right: -120px;
-  width: 480px;
-  height: 480px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.08) 0%, transparent 70%);
+  top: -10%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(16, 185, 129, 0.05) 50%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
+  filter: blur(80px);
+  animation: floatOrb 10s ease-in-out infinite alternate;
+}
+
+@keyframes floatOrb {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-50px, 50px) scale(1.1); }
 }
 
 #home {
@@ -418,7 +424,8 @@ section {
 
 /* ========== SKILLS ========== */
 .skill-card {
-  background: var(--bg);
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.5rem;
@@ -650,7 +657,8 @@ section {
 
 /* ========== PROJECTS ========== */
 .proj-card {
-  background: var(--bg);
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.6rem;
@@ -860,9 +868,9 @@ section {
 }
 
 .contact-card {
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
-  border: 1px solid var(--border);
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   padding: 1.5rem;
   display: flex;
@@ -873,7 +881,7 @@ section {
 }
 
 .contact-card:hover {
-  background: #fff;
+  background: rgba(30, 41, 59, 0.9);
   border-color: var(--primary);
   transform: translateX(8px);
   box-shadow: 0 15px 30px -10px rgba(37, 99, 235, 0.15);
@@ -935,9 +943,10 @@ section {
 
 /* ========== FOOTER ========== */
 footer {
-  background: var(--text-dark);
-  color: #94a3b8;
+  background: var(--bg);
+  color: var(--text-muted);
   padding: 2rem 0;
+  border-top: 1px solid var(--border);
 }
 
 .foot-brand {
