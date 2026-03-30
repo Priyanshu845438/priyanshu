@@ -10,13 +10,13 @@ Professional portfolio showcasing expertise in Data Analysis, REST API Developme
 
 ## 🚀 Overview
 
-Aspiring Business and Data Analyst with strong skills in data analysis, REST API development, and technologies like Node.js, SQL, and React. Passionate about turning data into insights to support business decisions.
+Aspiring Data Analyst with experience in data extraction, analysis, and reporting, supported by backend and AI systems knowledge. Skilled in SQL and MongoDB, focused on improving data accuracy and delivering actionable insights.
 
 ## 🛠 Tech Stack
 
 - **Data Analysis & Processing:** ETL, Data Analysis, Data Interpretation, Data Cleaning, Data Validation, Data Quality, Report Creation, Dashboard Creation, Data Modeling, Data Extraction, Data Transformation, Data Reporting, Statistical Analysis.
 - **Databases:** SQL, MongoDB, PostgreSQL.
-- **Backend & Frontend:** JavaScript, Python, Node.js, Express.js, React.js, Flask, Backend Development.
+- **Backend & Frontend:** JavaScript, Python, Node.js, Express.js, React.js, Flask, Bootstrap, Backend Development, Vibe Coding.
 - **Testing & QA:** API Testing, Functional Testing, Regression Testing, Workflow Testing, System Analysis, Error Analysis, Quality Assurance.
 - **AI Systems:** LLM Testing, Prompt Testing, AI Response Analysis.
 - **Tools:** Jira & Confluence, Git & GitHub, Postman, VS Code, Figma, Microsoft Excel, Power BI.
