@@ -14,12 +14,13 @@ Aspiring Business and Data Analyst with strong skills in data analysis, REST API
 
 ## 🛠 Tech Stack
 
-- **Data Analysis & Processing:** ETL, Data Analysis, Data Interpretation, Data Cleaning, Data Validation, Data Quality, Report Creation, Dashboard Creation, Data Modeling, Data Extraction, Data Transformation, Data Reporting.
+- **Data Analysis & Processing:** ETL, Data Analysis, Data Interpretation, Data Cleaning, Data Validation, Data Quality, Report Creation, Dashboard Creation, Data Modeling, Data Extraction, Data Transformation, Data Reporting, Statistical Analysis.
 - **Databases:** SQL, MongoDB, PostgreSQL.
 - **Backend & Frontend:** JavaScript, Python, Node.js, Express.js, React.js, Flask, Backend Development.
 - **Testing & QA:** API Testing, Functional Testing, Regression Testing, Workflow Testing, System Analysis, Error Analysis, Quality Assurance.
 - **AI Systems:** LLM Testing, Prompt Testing, AI Response Analysis.
-- **Tools:** Postman, Git & GitHub, Microsoft Excel, Power BI.
+- **Tools:** Jira & Confluence, Git & GitHub, Postman, VS Code, Figma, Microsoft Excel, Power BI.
+- **Business Strategy & Agile:** Requirement Gathering, Agile / Scrum Methodologies, Workflow Design, A/B Testing & Experimentation.
 
 ## 📁 Repository Structure
 
